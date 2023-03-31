@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/html-css/exercicios/imagens/favicon/favicon.ico" type="image/x-icon">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!--consumo no seu local-->
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>
+        <li>Este vídeo está hospedado no meu próprio sevidor.</li>
+    </p>
+    <!--o comando poster="diretorio", serve para colocar uma capa no vídeo-->
+    <video width="500" controls poster="imagens/img002-removebg.png">
+        <source src="/html-css/exercicios/ex012/media/meu-video.mkv.mp4" type="video/mp4">
+
+        <source src="/html-css/exercicios/ex012/media/meu-video.mp4.mp4" type="video/mp4">
+
+        <source src="/html-css/exercicios/ex012/media/meu-video.webm.webm" type="video/webm">
+        
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <p>
+        <li type="square">Video cahmpras!!!</li>
+    </p>
+    <!-- passos: www.youtube.com -> seleciona um vídeo -> compartilha -> incorporar -> copia/cola  -->
+    <h1>Inserindo vídeos do youTuube</h1>
+    <!--consume a hospedagem do youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8ozM-XXQR8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!-- <h2>Video formato mp4</h2>
+    <video src="media/meu-video.mp4.mp4"  controls></video>
+    <h2>Video formato mkv</h2>
+    <video src="media/meu-video.mkv.mp4" autoplay></video>
+    <h2>Video formato webm</h2>
+    <video src="media/meu-video.webm.webm" autoplay></video> -->
+</body>
+</html>
